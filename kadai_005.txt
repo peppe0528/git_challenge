@@ -1,0 +1,46 @@
+
+PS C:\Users\phara\Desktop\git_tutorial\git_challenge\git_challenge> cd "C:\Users\phara\Desktop\git_challenge"
+PS C:\Users\phara\Desktop\git_challenge> mkdir git_challenge  
+
+    Directory: C:\Users\phara\Desktop\git_challenge
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          2024/08/07    18:56                git_challenge
+
+PS C:\Users\phara\Desktop\git_challenge>
+PS C:\Users\phara\Desktop\git_challenge>
+PS C:\Users\phara\Desktop\git_challenge> cd git_challenge
+PS C:\Users\phara\Desktop\git_challenge\git_challenge> git init  
+Initialized empty Git repository in C:/Users/phara/Desktop/git_challenge/git_challenge/.git/
+PS C:\Users\phara\Desktop\git_challenge\git_challenge>
+PS C:\Users\phara\Desktop\git_challenge\git_challenge>
+PS C:\Users\phara\Desktop\git_challenge\git_challenge> git add hello_world.txt
+PS C:\Users\phara\Desktop\git_challenge\git_challenge> git commit -m "Hello,world.txtを追加"
+[main (root-commit) c6f4077] Hello,world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\phara\Desktop\git_challenge\git_challenge>
+PS C:\Users\phara\Desktop\git_challenge\git_challenge>
+PS C:\Users\phara\Desktop\git_challenge\git_challenge> git add hello_world.txt
+PS C:\Users\phara\Desktop\git_challenge\git_challenge> git commit -m "日本語訳を追記"       
+[main 6aa312d] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\phara\Desktop\git_challenge\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\phara\Desktop\git_challenge\git_challenge> git log --oneline
+6aa312d (HEAD -> main) 日本語訳を追記
+c6f4077 Hello,world.txtを追加
+PS C:\Users\phara\Desktop\git_challenge\git_challenge> cd "C:\Users\phara\Desktop\git_challenge\git_challenge"
+PS C:\Users\phara\Desktop\git_challenge\git_challenge> mkdir kadai_005
+
+    Directory: C:\Users\phara\Desktop\git_challenge\git_challenge
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          2024/08/07    19:07                kadai_005
+
+PS C:\Users\phara\Desktop\git_challenge\git_challenge>
+PS C:\Users\phara\Desktop\git_challenge\git_challenge>
+PS C:\Users\phara\Desktop\git_challenge\git_challenge>
